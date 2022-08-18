@@ -7,6 +7,7 @@
     text-align: center;
     background-color: rgb(187, 187, 187);
     font-family: 'Lato', sans-serif;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 
 ul{
@@ -14,6 +15,10 @@ ul{
     font-size: 20px;
     display: flex;
     justify-content: space-around;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 .ruff{
@@ -44,6 +49,7 @@ section{
     align-items: center;
     justify-content: center;
     background-color: rgb(187, 187, 187);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 .container{
     width: 90%;
@@ -52,6 +58,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 
 .yarn{
@@ -63,6 +70,19 @@ section{
   width: 100px;
   height: 100px;
   border: 3px solid #020202;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+.yarn2{
+    background: url(https://media.istockphoto.com/vectors/knitting-icon-vector-id1058884970?k=20&m=1058884970&s=612x612&w=0&h=eZ5wtwlJ_42-OyKML_ZOZ38LCRQzTX5zyXwrxSke20E=);
+    background-size: cover;
+    position: absolute;
+  top: 38px;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #020202;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 
 .left{
@@ -83,7 +103,7 @@ section{
     padding: 30px;
     border-radius: 8px;
     margin-left: -50px;
-
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     
 
 }
@@ -92,8 +112,11 @@ img{
     max-width: 500px;
     min-width: 500px;
     max-height: 650px;
+    padding: 10px;
+    
     border: 50px black;
     padding: auto;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 footer{
     text-align: center;

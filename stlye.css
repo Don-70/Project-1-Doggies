@@ -9,6 +9,7 @@
     text-align: center;
     background-color: rgb(187, 187, 187);
     font-family: 'Lato', sans-serif;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 
 ul{
@@ -17,6 +18,9 @@ ul{
     justify-content: space-around;
     display: flex;
 
+}
+a:hover{
+    text-decoration: none;
 }
 
 .ruff{
@@ -46,6 +50,7 @@ section{
     align-items: center;
     justify-content: center;
     background-color: rgb(187, 187, 187);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     
 }
 .container{
@@ -66,6 +71,18 @@ section{
   width: 100px;
   height: 100px;
   border: 3px solid #020202;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+.paws2{
+    background: url(https://static.vecteezy.com/system/resources/previews/006/211/943/non_2x/dog-paw-prints-paw-print-dog-free-vector.jpg);
+    background-size: cover;
+    position: absolute;
+  top: 38px;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #020202;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 
 .right{
@@ -78,6 +95,7 @@ section{
     padding: 30px;
     border-radius: 8px;
     margin-left: 50px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 
 }
 
@@ -96,6 +114,8 @@ img{
     max-width: 500px;
     min-width: 500px;
     max-height: 650px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     /* border: 50px black;
     padding: auto; */
 }
