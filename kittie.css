@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Lato:ital,wght@1,700&display=swap');
+
+*{
+    font-family: 'DynaPuff', cursive;
+}
 .jumbotron{
     text-align: center;
     background-color: rgb(187, 187, 187);
+    font-family: 'Lato', sans-serif;
 }
 
 ul{
@@ -46,6 +52,17 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.yarn{
+    background: url(https://media.istockphoto.com/vectors/knitting-icon-vector-id1058884970?k=20&m=1058884970&s=612x612&w=0&h=eZ5wtwlJ_42-OyKML_ZOZ38LCRQzTX5zyXwrxSke20E=);
+    background-size: cover;
+    position: absolute;
+  top: 38px;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #020202;
 }
 
 .left{

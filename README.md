@@ -1,4 +1,4 @@
-# Doggies therapy 
+# Pet therapy 
 
 An app that randomly shows you a dogo when youre not feeling the best 
 

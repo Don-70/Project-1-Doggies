@@ -1,6 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Lato:ital,wght@1,700&display=swap');
+
+
+*{
+    font-family: 'DynaPuff', cursive;
+}
 .jumbotron{
     text-align: center;
     background-color: rgb(187, 187, 187);
+    font-family: 'Lato', sans-serif;
 }
 
 ul{
@@ -49,6 +57,17 @@ section{
     justify-content: center;
 }
 
+.paws{
+    background: url(https://static.vecteezy.com/system/resources/previews/006/211/943/non_2x/dog-paw-prints-paw-print-dog-free-vector.jpg);
+    background-size: cover;
+    position: absolute;
+  top: 38px;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #020202;
+}
+
 .right{
     width: 50%;
     min-height: 400px;
@@ -65,7 +84,7 @@ section{
  .left{
     width: 50%;
     height: 600px;
-    /* background-color: rgb(16, 123, 176); */
+
     border-radius: 8px;
     background-size: cover; 
 }
@@ -77,8 +96,8 @@ img{
     max-width: 500px;
     min-width: 500px;
     max-height: 650px;
-    border: 50px black;
-    padding: auto;
+    /* border: 50px black;
+    padding: auto; */
 }
 footer{
     text-align: center;
@@ -98,7 +117,10 @@ footer{
         margin:0;
         margin-top: -100px;
     }
-
+    img{
+        max-width: 100%;
+    }
+    
 }
 
 
