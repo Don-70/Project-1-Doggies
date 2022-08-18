@@ -17,6 +17,10 @@ ul{
     justify-content: space-around;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 .ruff{
     font-size: 20px;
     color:rgb(43, 40, 40);
@@ -63,6 +67,18 @@ section{
     position: absolute;
   top: 38px;
   right: 0;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #020202;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+.yarn2{
+    background: url(https://media.istockphoto.com/vectors/knitting-icon-vector-id1058884970?k=20&m=1058884970&s=612x612&w=0&h=eZ5wtwlJ_42-OyKML_ZOZ38LCRQzTX5zyXwrxSke20E=);
+    background-size: cover;
+    position: absolute;
+  top: 38px;
+  left: 0;
   width: 100px;
   height: 100px;
   border: 3px solid #020202;

@@ -19,6 +19,9 @@ ul{
     display: flex;
 
 }
+a:hover{
+    text-decoration: none;
+}
 
 .ruff{
     font-size: 20px;
@@ -65,6 +68,17 @@ section{
     position: absolute;
   top: 38px;
   left: 0;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #020202;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+.paws2{
+    background: url(https://static.vecteezy.com/system/resources/previews/006/211/943/non_2x/dog-paw-prints-paw-print-dog-free-vector.jpg);
+    background-size: cover;
+    position: absolute;
+  top: 38px;
+  right: 0;
   width: 100px;
   height: 100px;
   border: 3px solid #020202;

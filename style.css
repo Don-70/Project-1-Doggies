@@ -23,6 +23,9 @@ ul{
     color:rgb(43, 40, 40);
 
 }
+a:hover{
+    text-decoration: none;
+}
 
 .meow{
     font-size: 20px;
