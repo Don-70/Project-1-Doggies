@@ -1,3 +1,4 @@
+
 .jumbotron{
     text-align: center;
     background-color: rgb(187, 187, 187);
@@ -6,9 +7,8 @@
 ul{
     list-style-type: none;
     font-size: 20px;
-    justify-content: space-around;
     display: flex;
-
+    justify-content: space-around;
 }
 
 .ruff{
@@ -31,6 +31,7 @@ ul{
     text-align: left;
     color: rgb(0, 0, 0);
 }  
+
 section{
     min-height: 100vh;
     width: 100%;
@@ -38,7 +39,6 @@ section{
     align-items: center;
     justify-content: center;
     background-color: rgb(187, 187, 187);
-    
 }
 .container{
     width: 90%;
@@ -49,6 +49,14 @@ section{
     justify-content: center;
 }
 
+.left{
+    width: 50%;
+    height: 600px;
+    background-color: rgb(16, 123, 176);
+    border-radius: 8px;
+    background: url(https://i.pinimg.com/736x/4b/ec/a6/4beca611641ba4bf26504c14c1fcc9ab.jpg);
+    background-size: cover;
+}
 .right{
     width: 50%;
     min-height: 400px;
@@ -58,33 +66,12 @@ section{
     justify-content: center;
     padding: 30px;
     border-radius: 8px;
-    margin-left: 50px;
+    margin-left: -50px;
 
-}
-
- .left{
-    width: 50%;
-    height: 600px;
-    /* background-color: rgb(16, 123, 176); */
-    border-radius: 8px;
-    background-size: cover; 
-}
-.left::before{
-    max-width: 200px;
-}
-
-img{
-    max-width: 500px;
-    min-width: 500px;
-    max-height: 650px;
-    border: 50px black;
-    padding: auto;
 }
 footer{
     text-align: center;
 }
-
-
 
 @media only screen and (max-width: 768px){
     .container{
@@ -100,5 +87,3 @@ footer{
     }
 
 }
-
-
