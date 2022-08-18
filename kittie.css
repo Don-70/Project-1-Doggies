@@ -97,6 +97,7 @@ img{
     min-width: 500px;
     max-height: 650px;
     padding: 10px;
+    
     border: 50px black;
     padding: auto;
     box-shadow: 0 5px 10px rgba(0,0,0,0.5);
