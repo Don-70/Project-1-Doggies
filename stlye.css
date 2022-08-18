@@ -38,6 +38,11 @@ a:hover{
     color:rgb(43, 40, 40);
 }
 
+.creator{
+    font-size: 20px;
+    color:rgb(43, 40, 40);
+}
+
 .active{
     font-size: large;
     text-align: left;
