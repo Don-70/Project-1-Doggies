@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Lato:ital,wght@1,700&display=swap');
+
+*{
+    font-family: 'DynaPuff', cursive;
+}
 .jumbotron{
     text-align: center;
     background-color: rgb(187, 187, 187);
+    font-family: 'Lato', sans-serif;
 }
 
 ul{
