@@ -126,5 +126,25 @@ footer{
         margin:0;
         margin-top: -100px;
     }
+    .home{
+        font-size: 80%;
+    }
+    .ruff{
+        font-size: 80%;
+    }
+    .meow{
+        font-size: 80%;
+    }
+    .creator{
+        font-size: 80%;
+    }
+    .paws{
+    width: 10%;
+    height: 5%;
+}
+    .yarn{
+    width: 10%;
+    height: 5%;
+}
 
 }
