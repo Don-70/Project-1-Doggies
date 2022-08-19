@@ -64,6 +64,13 @@ section{
     align-items: center;
     justify-content: center;
 }
+
+.gitHub{
+    width: 20%;
+}
+.linkedIn{
+    width: 20%;
+}
 .paws{
     background: url(https://static.vecteezy.com/system/resources/previews/006/211/943/non_2x/dog-paw-prints-paw-print-dog-free-vector.jpg);
     background-size: cover;
